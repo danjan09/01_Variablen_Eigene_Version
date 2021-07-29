@@ -4,7 +4,7 @@
 
 /**
  *  Block -Kommentar
- *  Wir nutzen JavaScript 6
+ *  Wir nutzen JavaScript 6 Z.B. anstatt var nutzt JS6 let.
  */
 
 // Ausgabe
@@ -32,12 +32,12 @@ console.log(firstName); // nicht deklarierte Var. --> Fehler */
 
 // JS ist eine untypisierte Sprache!  |  untyped
 
-let test;       // Deklaration (Definition)
-test = "hi";    // string 
-test = 2;       // number
-test = true;    // boolean
+// let test;       // Deklaration (Definition)
+// test = "hi";    // string 
+// test = 2;       // number
+// test = true;    // boolean
 
-console.log("Datentyp: " + typeof test);
-console.log("Inhalt: " + test);
+// console.log("Datentyp: " + typeof test);
+// console.log("Inhalt: " + test);
 
 // Test
